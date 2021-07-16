@@ -11,7 +11,10 @@ sudo dnf install nginx
 sudo systemctl enable nginx
 sudo systemctl start nginx
 ```
-
+```
+sudo firewall-cmd --permanent --zone=public --add-service=https --add-service=http
+sudo firewall-cmd --reload
+```
 
 
 ## Câu lệnh bật tắt
