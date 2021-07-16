@@ -1,5 +1,18 @@
-# nginx-common-command
-nginx common command
+# how-to-install-and-use-nginx-common-command
+how-to-install-and-use-nginx-common-command
+
+## install nginx ubuntu
+```
+sudo apt install nginx
+```
+## install nginx centos
+```
+sudo dnf install nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
+```
+
+
 
 ## Câu lệnh bật tắt
 ```
