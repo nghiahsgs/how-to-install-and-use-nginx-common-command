@@ -24,6 +24,11 @@ sudo systemctl stop nginx
 sudo systemctl start nginx
 ```
 
+if err: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)
+```
+sudo apachectl stop
+```
+
 Nhan tiện lưu ké câu lệnh apache 2
 ```
 sudo /etc/init.d/apache2 restart
